@@ -1,11 +1,16 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">hello react</header>
+    <div>
+      <main>
+        <Dictionary />
+      </main>
+      <footer className="footer">
+        This App is coded by Mary Moleli and is hosted on Netlify
+      </footer>
     </div>
   );
 }
-
 export default App;
