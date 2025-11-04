@@ -5,11 +5,11 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="results">
-        <h2>{props.results.word}</h2>
-        {props.results.meaning.map(function (meaning, index) {
+        <h4>{props.results.word}</h4>
+        {props.results.meanings.map(function (element, index) {
           return (
             <div key={index}>
-              <Meaning meaning={meaning} />
+              <Meaning meaning={element} />
             </div>
           );
         })}
