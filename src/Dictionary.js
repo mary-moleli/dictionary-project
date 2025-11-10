@@ -60,9 +60,7 @@ export default function Dictionary(props) {
               defaultValue={props.defaultKeyword}
             />
           </form>
-          <div className="hint">
-            suggested words: pink, wine, programming, nature...
-          </div>
+          <div className="hint">Suggestions: pink, wine, nature...</div>
         </section>
         <Results results={results} />
         <Images pictures={photos} />

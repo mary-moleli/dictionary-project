@@ -6,9 +6,10 @@
   margin: 20px 0;
 }
 .Dictionary h1 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: rgb(140, 64, 76);
 }
 
 .Dictionary input {
@@ -22,4 +23,6 @@
 .Dictionary .hint {
   font-size: 14px;
   margin-top: 5px;
+  font-family: monospace;
+  color: rgb(72, 109, 97);
 }
