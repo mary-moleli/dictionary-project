@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="Milan" />
       </main>
       <footer className="footer">
         This App is coded by Mary Moleli and is hosted on Netlify
